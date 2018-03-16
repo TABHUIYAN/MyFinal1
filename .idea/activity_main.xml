@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/leaf"
+    tools:context="com.example.bhuiyan.myfinal1.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#66e600ff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bike" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff0400"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="110dp"
+        android:text="List"
+        android:textStyle="italic"
+        android:id="@+id/b2"
+        android:layout_gravity="center_horizontal"
+        android:onClick="parseJSON"/>
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_marginTop="490dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="1dp"
+            />
+
+    <Button
+        android:id="@+id/btn_Map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b2"
+        android:background="#ff0400"
+        android:layout_below="@+id/b2"
+        android:layout_marginTop="13dp"
+        android:onClick="displayMap"
+        android:text="Map"
+        android:textStyle="italic" />
+    <Button
+        android:id="@+id/btn_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b2"
+        android:layout_below="@+id/btn_Map"
+        android:layout_marginTop="13dp"
+        android:onClick="displayWeather"
+        android:text="Weather"
+        android:textStyle="italic"
+        android:background="#ff0900"/>
+
+    <Button
+        android:id="@+id/btn_About"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_Map"
+        android:layout_below="@+id/btn_weather"
+        android:layout_marginTop="10dp"
+        android:background="#ff1100"
+        android:text="About"
+        android:onClick="displayAbout"
+        android:textStyle="italic" />
+</RelativeLayout>

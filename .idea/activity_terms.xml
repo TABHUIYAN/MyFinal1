@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginBottom="4dp"
+    android:orientation="vertical"
+    tools:context="com.example.bhuiyan.myfinal1.TermsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#0a0a09"
+    android:textSize="12sp"
+    android:textStyle="italic"
+    android:text="1. PURPOSE OF THE dublinbikes SERVICE     1.1 dublinbikes is a public service (“The Service”) offered by the City of Dublin (“the City”) and  operated under concession by JCDecaux Ireland Ltd (“The Provider”) to provide access to self-service hire bicycles (“the bike(s)”).
+     1.2 dublinbikes CONTACT DETAILS dublinbikes  JCDecaux Ireland Ltd Unit 2, Naas Road Industrial Park Old Naas Road Dublin 12 D12 A242 •
+     Telephone: 1850 777 070 • Email via the website www.dublinbikes.ie • Website: www.dublinbikes.ie
+     2. STRUCTURE OF THE dublinbikes SERVICE
+     2.1 The Service consists of a network of stations (“the station(s)”), each comprising a central terminal (“the terminal”) and attachment stands (“the stand(s)”) for the bikes providing The Service. Please note that it cannot be guaranteed that at any given time a particular station will have either bikes or vacant stands available. 2.2 For short term subscribers to The Service, a credit card enabled terminal allows them to buy a 3 Day Ticket for use of The Service by means of an automated electronic payment screen and keypad. All terminals enable a subscriber to: - select a bike and to obtain an extra 15 minutes of free use if on   returning the bike, the station is fully occupied. - consult the occupancy status of nearby stations. - obtain information about The Service. For annual subscribers to The Service, a terminal also allows them to: - log in and select a bike using a screen, a keypad and a smart card   reader. - access their recent rental charges account information. 2.3 Each stand accommodates one bike and is numbered for the purposes of identifying and selecting a bike. 3. AVAILABILITY OF THE dublinbikes SERVICE 3.1 In order to access The Service, the subscriber must be in possession of a 3 Day Ticket, an Annual Card or an associated smart card (e.g. Leap Card). The pricing structure is set out in Clause 6. 3.2 The 3 Day Ticket is valid for a maximum of three consecutive days, running from the moment the operation is accepted by the bank of the credit card holder. 3.3 The Annual Card is valid for a period of one year and is renewed automatically unless cancelled. Not to Renew (NTR) requests are only
+    accepted in writing or via the website dublinbikes.ie prior to the renewal date.
+    3.4 The following three conditions apply to both the 3 Day Ticket subscription and the Annual Card subscription:
+    3.4.1 During the validity period, the subscriber may only use The Service for a maximum of 24 consecutive hours
+    (“the Maximum Authorised Continuous Period of Use”). In the event of any dispute in relation to the Period of Use of the bike by the customer,
+     3.4.2 Subject to the number of bikes available at each station, The Service is accessible twelve months a year, seven days a week between the hours of 5am and 12.30am, without interruption, except in cases of force majeure, operational reasons or a change in law affecting The Service. In this context, a change in law includes, without limitation, a change in law by virtue of Common Law, Statute, Statutory Instrument, Proclamation, Bye-law, Directive, Decision, Regulation, Rule, Order, Notice, Code of Practice, Code of Conduct, Rule of Court, Instruments, or delegated or subordinate legislation. 3.4.3 The City and The Provider reserve the right to refuse or suspend access to the scheme without refund. 4. HOW TO ACCESS THE SERVICE 4.1 MEANS OF ACCESS 4.1.1 HOW TO SUBSCRIBE TO A dublinbikes 3 DAY TICKET (1) To purchase a 3 Day Ticket, the customer chooses the “Subscribe” option on a credit card enabled terminal,then selects “3 Day Ticket”; (2) The customer reads and confirms the transaction details;
+  (3) A prompt on the terminal screen asks the customer to read and accept the Terms and Conditions of The Service by pressing “V” or 'OK' on the keypad.
+  (2) The cost of holding an Annual Card is displayed on the website and is debited in addition to the cost of any rental charges incurred as set out in Clause 6.2.
+   (3) For 3 Day Tickets, payment of the amount due by the subscriber is made after the expiry of the maximum validity period,
+   by charging the credit card used to take out the subscription, under the conditions set out in Clause 4. The total amount due,
+    including the subscription charge and any rental charges incurred over the validity period, will be debited in a single operation in the five
+    working days following the expiry of the subscription. (4) For Annual Cards, payment of the amount due by the subscriber is made by either
+    credit/debit card or direct debit. In the case of credit/debit cards, the subscription charge is debited at the time of subscription.
+    Direct debit subscribers will have their subscription debited after the subscription is confirmed. Rental charges incurred will be debited at the end of each month,
+    either from the subscriber credit/debit card or by direct debit. When subscribers update their credit/debit card details, their card provider may apply
+    a preauthorisation fee, usually €2, in order to validate the card. This is a preauthorisation which is released within a few days and is not a charge.
+    Failure to update credit/debit card details in good time may result in a temporary loss of service. In order to access The Service,
+     the Subscriber must maintain a method of payment at all times which meets The Provider's requirements including Visa Verify or MasterCard Secure Code where appropriate.
+    6.2 CHARGES
+    "/></ScrollView>
+</RelativeLayout>

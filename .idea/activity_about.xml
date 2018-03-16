@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b137ff00"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    tools:context="com.example.bhuiyan.myfinal1.AboutActivity">
+
+    <TextView
+        android:background="#ff0"
+        android:id="@+id/txTerm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terms and Condition"
+        android:textStyle="italic"
+        android:textColor="#101010"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="disTerm"
+        android:textSize="30sp"/>
+    <TextView
+        android:background="#ff0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Privacy Policy"
+        android:layout_below="@id/txTerm"
+        android:textColor="#101010"
+        android:textStyle="italic"/>
+</RelativeLayout>
